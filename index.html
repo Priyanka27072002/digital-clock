@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital-clock</title>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet"href="css/style.css">
+</head>
+<body>
+    <section id="clock">
+        <div id="container">
+            <div id="row">
+                <div id="col">
+                    <div class="dis">
+                        <div class="datename">
+                        <p>Date</p>
+                        <div id="mydaydisplay" class="day"onload="daydisplay()"></div>
+                        </div>
+                        <div class="datename">
+                        <p>Month</p>
+                        <div id="mymonth"class="mon"onload="daydisplay()"></div>
+                        </div>
+                        <div class="datename">
+                        <p>Year</p>
+                        <div id="myyear"class="yea"onload="daydisplay()"></div>
+                        </div>
+                    </div>
+                    <div class="time">
+                    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+                    </div>
+                    <div class="days">
+                        <div id="sun"class="day1"onload="displayday()"></div>
+                        <div> <p class="day2">Sun</p></div>
+                        <div id="mon"class="day1"onload="displayday()"></div>
+                        <div> <p class="day2">Mon</p></div>
+                        <div id="tue"class="day1"onload="displayday()"></div>
+                        <div> <p class="day2">Tue</p></div>
+                        <div id="wed"class="day1"onload="displayday()"></div>
+                        <div> <p class="day2">Wed</p></div>
+                        <div id="thu"class="day1"onload="displayday()"></div>
+                        <div> <p class="day2">Thu</p></div>
+                        <div id="fri"class="day1"onload="displayday()"></div>
+                        <div> <p class="day2">Fri</p></div>
+                        <div id="sat"class="day1"onload="displayday()"></div>
+                        <div> <p class="day2">Sat</p></div>
+                    </div>
+                   
+                </div>   
+            </div>
+        </div>
+    </section>
+</body>
+<script src="main.js"></script>
+</html>
